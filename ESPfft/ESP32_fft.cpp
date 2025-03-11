@@ -2,11 +2,22 @@
   ESP32 FFT
   =========
   This provides a vanilla radix-2 FFT implementation and a test example.
-  Author
-  ------
+  The code has been wrapped into an Arduino Library by MichielfromNL.
+  This is a version modified by Vittorio Lumare.  
+
+
+  Other Authors
+  -------------
+  This code was modified and published asyash-sanghvi in this repo https://github.com/yash-sanghvi/ESP32/tree/master/FFT_on_ESP32_Arduino
+
+  This code was modified and published as 'ESPfft.zip' by MichielfromNL in this post: https://github.com/yash-sanghvi/ESP32/issues/1 
+
+   
+  Original Author
+  ---------------
   This code was written by [Robin Scheibler](http://www.robinscheibler.org) during rainy days in October 2017.
 
- "Classified" for ESP and ARduino by M. Steltman Mey 2021
+  "Classified" for ESP and ARduino by M. Steltman Mey 2021
   
   License
   -------
@@ -27,6 +38,7 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
 */
+
 #include <Arduino.h>
 #include "ESP32_fft.h"
 /*
